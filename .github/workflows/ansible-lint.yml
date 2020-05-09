@@ -20,7 +20,7 @@ jobs:
         # or valid Ansible directories according to the Ansible role
         # directory structure.
         # If you want to lint multiple ansible files, use the following syntax
-        targets: apache.yml
+        targets: \.(yaml|yml)$
         # targets: "./"
         # [optional]
         # Arguments to be passed to the ansible-lint
