@@ -10,7 +10,7 @@
   - name: Install Apache with yum
     yum:
       name: httpd
-      state: latest
+      state: present
   - name: Apache enabled and running
     service:
       name: httpd
